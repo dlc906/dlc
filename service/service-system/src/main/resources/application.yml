@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-system
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.152.132:8848
+logging:
+  file:
+    name: logs/${spring.application.name}.log # 日志文件名，全路径
+  level:
+    com.dlc.dlc.system.interceptor: DEBUG

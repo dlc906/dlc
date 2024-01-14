@@ -1,0 +1,1 @@
+2024-01-05 21:56:18 - SQL: [SELECT id,name,age,isDeleted FROM systems WHERE isDeleted=0] - 执行时间: [174ms]
